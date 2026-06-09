@@ -53,12 +53,36 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Feed | Get find near earth objects by date, Get find near earth objects for today |
-| Neo | Get browse the near earth objects service, Get find near earth objects by id |
-| Neosentry | Get retrieve sentry impact risk  near earth objects, Get retrieve sentry impact risk  near earth objectby id |
-| Stats | Get the near earth object data set totals |
+<details>
+<summary><b>Feed</b> (2 operations)</summary>
+
+- Get Find Near Earth Objects by date
+- Get Find Near Earth Objects for today
+
+</details>
+
+<details>
+<summary><b>Neo</b> (2 operations)</summary>
+
+- Get Browse the Near Earth Objects service
+- Get Find Near Earth Objects by ID
+
+</details>
+
+<details>
+<summary><b>Neosentry</b> (2 operations)</summary>
+
+- Get Retrieve Sentry Impact Risk Near Earth Objects
+- Get Retrieve Sentry Impact Risk Near Earth Objectby ID
+
+</details>
+
+<details>
+<summary><b>Stats</b> (1 operations)</summary>
+
+- Get the Near Earth Object data set totals
+
+</details>
 
 ---
 

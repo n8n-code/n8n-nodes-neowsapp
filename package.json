@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-neowsapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web service for near earth objects. All the data is from the NASA JPL Asteroid team",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-neowsapp",
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "neowsapp"

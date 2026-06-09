@@ -6,14 +6,14 @@ import { statsDescription } from './resources/stats';
 
 export class Neowsapp implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'neowsapp',
+		displayName: 'Neowsapp',
 		name: 'N8nDevNeowsapp',
 		icon: { light: 'file:./neowsapp.svg', dark: 'file:./neowsapp.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Web service for near earth objects. All the data is from the NASA JPL Asteroid team',
-		defaults: { name: 'neowsapp' },
+		defaults: { name: 'Neowsapp' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

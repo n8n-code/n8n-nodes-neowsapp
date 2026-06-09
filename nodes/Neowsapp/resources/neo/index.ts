@@ -27,8 +27,8 @@ export const neoDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Retrieve Near Earth Object By Id",
-					"value": "Retrieve Near Earth Object By Id",
+					"name": "Retrieve Near Earth Object By ID",
+					"value": "Retrieve Near Earth Object By ID",
 					"action": "Find Near Earth Objects by id",
 					"description": "Retrieve a Near Earth Objects with a given id",
 					"routing": {
@@ -124,13 +124,13 @@ export const neoDescription: INodeProperties[] = [
 						"Neo"
 					],
 					"operation": [
-						"Retrieve Near Earth Object By Id"
+						"Retrieve Near Earth Object By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Asteroid Id",
+			"displayName": "Asteroid ID",
 			"name": "asteroid_id",
 			"required": true,
 			"description": "ID of Near Earth Object - (ex: 3729835)",
@@ -142,7 +142,7 @@ export const neoDescription: INodeProperties[] = [
 						"Neo"
 					],
 					"operation": [
-						"Retrieve Near Earth Object By Id"
+						"Retrieve Near Earth Object By ID"
 					]
 				}
 			}

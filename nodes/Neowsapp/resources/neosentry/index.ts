@@ -27,8 +27,8 @@ export const neosentryDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Retrieve Sentry Risk Data By Id",
-					"value": "Retrieve Sentry Risk Data By Id",
+					"name": "Retrieve Sentry Risk Data By ID",
+					"value": "Retrieve Sentry Risk Data By ID",
 					"action": "Retrieve Sentry (Impact Risk ) Near Earth Objectby ID ",
 					"description": "Retrieves Sentry Near Earth Object by ID",
 					"routing": {
@@ -149,13 +149,13 @@ export const neosentryDescription: INodeProperties[] = [
 						"Neosentry"
 					],
 					"operation": [
-						"Retrieve Sentry Risk Data By Id"
+						"Retrieve Sentry Risk Data By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Asteroid Id",
+			"displayName": "Asteroid ID",
 			"name": "asteroid_id",
 			"required": true,
 			"description": "ID of NearEarth object.  ID can be SPK_ID, Asteroid des (designation) or Sentry ID",
@@ -167,7 +167,7 @@ export const neosentryDescription: INodeProperties[] = [
 						"Neosentry"
 					],
 					"operation": [
-						"Retrieve Sentry Risk Data By Id"
+						"Retrieve Sentry Risk Data By ID"
 					]
 				}
 			}

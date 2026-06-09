@@ -8,7 +8,7 @@ import type {
 export class NeowsappApi implements ICredentialType {
 	name = 'N8nDevNeowsappApi';
 
-	displayName = 'neowsapp API';
+	displayName = 'Neowsapp API';
 
 	icon: Icon = { light: 'file:../nodes/Neowsapp/neowsapp.svg', dark: 'file:../nodes/Neowsapp/neowsapp.dark.svg' };
 
@@ -22,7 +22,7 @@ export class NeowsappApi implements ICredentialType {
 			default: 'http://www.neowsapp.com/',
 			required: true,
 			placeholder: 'http://www.neowsapp.com/',
-			description: 'The base URL of your neowsapp API server',
+			description: 'The base URL of your Neowsapp API server',
 		},
 		{
 			displayName: 'API Key',
